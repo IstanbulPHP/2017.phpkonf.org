@@ -1,0 +1,467 @@
+<!DOCTYPE HTML>
+<html ng-app="PHPKonfApp">
+<head>
+    <meta charset=utf-8>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <title>PHPKonf: İstanbul PHP Conference 2017</title>
+
+    <link rel="shortcut icon" href="img/favicon.ico" />
+
+    <meta name="description" content="PHPKonf: 20 Mayıs 2017'de düzenlenecek PHP Konferansı hakkında bilgilere ulaşabileceğiniz web sitesi.">
+    <meta name="keywords" content="PHP Konferansı, PHP, PHPKonf">
+    <meta name="author" content="IstanbulPHP"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="PHPKonf: İstanbul PHP Konferansı 2017" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://phpkonf.org/" />
+    <meta property="og:image" content="http://phpkonf.org/img/covers/phpkonf2014.jpg" />
+    <meta property="og:description" content="PHPKonf: 20 Mayıs 2017'de düzenlenecek PHP Konferansı hakkında bilgilere ulaşabileceğiniz web sitesi." />
+    <link rel=stylesheet href="libs/zozo-tabs/css/zozo.examples.min.css">
+    <link rel=stylesheet href="libs/zozo-tabs/css/zozo.tabs.min.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha256-3dkvEK0WLHRJ7/Csr0BZjAWxERc5WH7bdeUya2aXxdU= sha512-+L4yy6FRcDGbXJ9mPG8MT/3UCDzwR9gPeyFNMCtInsol++5m3bk2bXWKdZjvybmohrAsn3Ua5x8gfLnbE1YkOg==" crossorigin="anonymous">
+    <link rel=stylesheet href="css/main.min.css">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+<body ng-controller="MainController" ng-cloak>
+
+    <header id="sticky-header" class="header">
+        <div class="container">
+            <a class="logo logo--sticky header__logo" href="#">PHPKonf</a>
+            <a class="button button--primary header__btn" href="https://opencfp.phpkonf.org/" target="_blank">Call for Papers</a>
+            <nav id="sticky-header-menu" class="menu header__menu">
+                <a class="menu__item" data-target-id="main" href="#">Home</a>
+                <a class="menu__item" data-target-id="about" href="#">About</a>
+                <a class="menu__item" data-target-id="speakers" href="#">Speakers</a>
+                <a class="menu__item" data-target-id="program" href="#">Schedule</a>
+                <a class="menu__item" data-target-id="tickets" href="#">Tickets</a>
+                <a class="menu__item" data-target-id="sponsors" href="#">Sponsors</a>
+                <a class="menu__item" href="javascript:void(0)" ng-click="clickToOpenCoc()">CoC</a>
+            </nav>
+        </div>
+    </header>
+    <!--only mobile-->
+    <header id="mobile-header" class="mobile-header">
+        <div class="container">
+            <a href="#nav" class="navicon"><i class="fa fa-navicon"></i></a>
+            <div class="clearfix"></div>
+            <nav id="mobile-nav" class="menu header__menu">
+                <a class="menu__item" data-target-id="main" href="#">Home</a>
+                <a class="menu__item" data-target-id="about" href="#">About</a>
+                <a class="menu__item" data-target-id="speakers" href="#">Speakers</a>
+                <a class="menu__item" data-target-id="program" href="#">Schedule</a>
+                <a class="menu__item" data-target-id="tickets" href="#">Tickets</a>
+                <a class="menu__item" data-target-id="sponsors" href="#">Sponsors</a>
+                <a class="menu__item" href="javascript:void(0)" ng-click="clickToOpenCoc()">CoC</a>
+            </nav>
+        </div>
+    </header>
+    <div id="main" class="jumbotron jumbotron--main">
+        <div class="container jumbotron__container">
+            <section class="jumbotron__inner">
+                <a class="logo logo--header" href="#">PHPKonf</a>
+                <h1 class="jumbotron__title jumbotron--main__title">ISTANBUL, TURKEY ON MAY 20, 2017</h1>
+                <span class="inline-block">PHPKonf is hosted by the İstanbul PHP community, and you're invited!<br/>
+We'll host some of the best speakers, awesome talk topics, latest technologies, and up to date news in PHP.</span><br>
+                <span class="inline-block" style="margin-top: 10px;">Share to world! <a href="https://twitter.com/intent/tweet?button_hashtag=phpkonf&text=PHPKonf%3A%20Istanbul%20PHP%20conference%202017%20hosted%20by%20İstanbul%20PHP%20community!%20%23php%20@istanbulphp" class="twitter-hashtag-button" data-related="EmirKarsiyakali,IstanbulPHP" data-url="http://phpkonf.org/">Tweet #phpkonf</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script></span><br>
+                <a class="button button--primary jumbotron--main__btn" href="https://opencfp.phpkonf.org/" target="_blank">Call for Papers</a>
+            </section>
+        </div>
+    </div>
+    <div id="about" class="pad-vertical-large bg-snow">
+        <div class="container">
+            <div class="row">
+                <section class="col-md-6 gap-bottom-tablet-v">
+                    <h3 class="gap-bottom-medium clear-gap-top">About PHPKonf</h3>
+                    <p class="gap-bottom-medium">PHPKonf is hosted by the İstanbul PHP community (İstanbul PHP) in İstanbul, Turkey from May 20th 2017, and you're invited! For the 4th year, we'll host some of the best speakers, awesome talk topics, latest technologies, and up to date news in PHP.<br/><br/>The conference has something for every level of PHP developer with awesome keynote and 14 talks(multi-track).<br/><br/>So come meet other PHP developers and see what others are doing, and please share your experience as well. Then relax or have some fun at the evening events with plenty of fun for everyone!</p>
+
+                    <div>
+                        <ul>
+                            <li><a target="_blank" href="http://2016.phpkonf.org">Visit PHPKonf 2016</a></li>
+                            <li><a target="_blank" href="http://2015.phpkonf.org">Visit PHPKonf 2015</a></li>
+                            <li><a target="_blank" href="http://2014.phpkonf.org">Visit PHPKonf 2014</a></li>
+                        </ul>                        
+                    </div>
+
+
+                    <a class="button button--primary" target="_blank" href="https://twitter.com/IstanbulPHP">İstanbul PHP on Twitter</a><br/><br/>
+                    <a class="button button--primary" target="_blank" href="http://www.meetup.com/IstanbulPHP">İstanbul PHP on Meetup.com</a>
+                </section>
+                <div class="col-md-6">
+                    <div class="row gap-bottom">
+                        <div class="col-sm-4 gap-bottom-mobile-h">
+                            <figure class="thumb thumb--primary">
+                                <img data-src="img/2014/1.jpg" alt="" class="thumb__img">
+                            </figure>
+                        </div>
+                        <div class="col-sm-8">
+                            <figure class="thumb thumb--primary">
+                                <img data-src="img/2014/2.jpg" alt="" class="thumb__img">
+                            </figure>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 gap-bottom-mobile-h">
+                            <figure class="thumb thumb--primary">
+                                <img data-src="img/2014/3.jpg" alt="" class="thumb__img">
+                            </figure>
+                        </div>
+                        <div class="col-sm-6">
+                            <figure class="thumb thumb--primary">
+                                <img data-src="img/2014/4.jpg" alt="" class="thumb__img">
+                            </figure>
+                        </div>
+                    </div>
+                    <div style="margin-top: 10px;"><a target="_blank" href="https://www.facebook.com/media/set/?set=a.1680108142218694.1073741829.1440529842843193&type=3">More photos!</a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="speakers" class="container text-center pad-vertical-large">
+        <h3 class="clear-gap-top">Speakers</h3>
+
+        <hr class="hyphen">
+
+        <div class="honeycomb-wrapper">
+
+            <div class="col-sm-3" ng-repeat="(id, speaker) in speakers | toArray | limitTo:limit">
+                <div class="speaker">
+                    <div class="photo-wrapper rounded">
+                        <a href="javascript:void(0)" ng-click="clickToOpen(speaker)">
+                            <img width="200px" height="200px" src="img/speakers/{{ speaker.photo }}" alt="{{ speaker.name + " " + speaker.surname }}" class="img-responsive">
+                        </a>
+                    </div>
+                    <div style="clear: both;"></div>
+                    <a href="javascript:void(0)" ng-click="clickToOpen(speaker)">{{ speaker.name + " " + speaker.surname }}</a>
+                    <p class="about" style="height: 50px!important">{{ speaker.bio }}</p>
+                </div>
+            </div>
+
+            <div style="clear: both;">
+                <a style="margin-top: 30px;" class="button button--primary" href="#">Call for Papers!</a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="program" class="pad-vertical-medium bg-snow">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div id="tabbed-nav">
+
+                        <!-- Tab Navigation Menu -->
+                        <ul>
+                            <li><a>Schedule</a></li>
+
+                        </ul>
+
+                        <!-- Content container -->
+                        <div>
+
+                            <!-- DAY1 -->
+                            <div>
+                                <p class="gap-bottom-medium">All talks will be English and we won't provide translation.
+                                </p>
+                                <a class="gap-bottom-medium button button--primary"
+                                   href="https://opencfp.phpkonf.org/" target="_blank">Call for Papers</a>
+                                <table>
+                                    <thead>
+                                    <tr>
+                                        <th>Saturday, 27 May</th>
+                                        <th><h4>*Partner Sponsor* Track</h4></th>
+                                        <th><h4>*Partner Sponsor* Track</h4></th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>09:00 - 09:30</td>
+                                        <td colspan="2" class="text-center">
+                                            <h6>Registration</h6>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>09:30 - 10:10</td>
+                                        <td colspan="2" class="text-center">
+                                            <h6>Keynote*</h6><span>Rasmus Lerdorf</span>
+                                            <p class="text-left"></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>10:20 - 11:00</td>
+                                        <td>
+                                            <h6></h6><span></span>
+                                            <p></p>
+                                        </td>
+                                        <td>
+                                            <h6></h6><span></span>
+                                            <p></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>11:10 - 11:50</td>
+                                        <td>
+                                            <h6></h6><span></span>
+                                            <p></p>
+                                        </td>
+                                        <td>
+                                            <h6></h6><span></span>
+                                            <p></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>12:00 - 12:40</td>
+                                        <td>
+                                            <h6></h6><span></span>
+                                            <p></p>
+                                        </td>
+                                        <td>
+                                            <h6></h6><span></span>
+                                            <p></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>12:40 - 13:30</td>
+                                        <td colspan="2" class="text-center lunch"><h6>Lunch</h6></td>
+                                    </tr>
+                                    <tr>
+                                        <td>13:30 - 14:10</td>
+                                        <td>
+                                            <h6></h6><span></span>
+                                            <p></p>
+                                        </td>
+                                        <td>
+                                            <h6></h6>
+                                            <p></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>14:20 - 15:00</td>
+                                        <td>
+                                            <h6></h6><span></span>
+                                            <p></p>
+                                        </td>
+                                        <td>
+                                            <h6></h6><span></span>
+                                            <p></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>15:10 - 16:50</td>
+                                        <td>
+                                            <h6></h6><span></span>
+                                            <p></p>
+                                        </td>
+                                        <td>
+                                            <h6></h6><span></span>
+                                            <p></p>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>17:10 - 17:50</td>
+                                        <td>
+                                            <h6></span>
+                                            <p></p>
+                                        </td>
+                                        <td>
+                                            <h6></h6><span></span>
+                                            <p></p>
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="tickets" class="container text-center pad-vertical-large">
+        <h3>Tickets</h3>
+        <hr class="hyphen">
+        <p>This year's conference is the most exciting PHPKonf ever! With paralel-track fantastic schedule with great speakers<br/>from all around the world, you won't want to miss it!</p>
+
+        <!-- Sendloop Subscription Widget - Start -->
+<script type="text/javascript" charset="utf-8">
+    window.sendloopSubscribeSettings = {
+        selector: ".sendloop-subscribe",
+        key: "R6U/078/3446915b",
+        account: "e6be8f1-72d83e",
+        showSubscriberCount: false
+    };
+</script>
+<script type="text/javascript" charset="utf-8">(function() {var w = window;var d = document;function l() {var s = d.createElement('script');s.type = 'text/javascript';s.async = true;s.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'sendloop.com/media/button/subscribeme.js';var x = d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s, x);}if (w.attachEvent) {w.attachEvent('onload', l);} else {w.addEventListener('load', l, false);}})();</script>
+<a href="#" class="sendloop-subscribe sendloop-as-button">Ping me when tickets sales starting!</a>
+<!-- Sendloop Subscription Widget - End -->
+
+        <div class="row pad-top">
+            <div class="col-md-6 gap-bottom-tablet-v">
+                <!-- Register Box -->
+                <div class="register-box" style="min-height: 276px!important;">
+                    <div class="register-box__col register-box__col--left">
+                        <div class="register-box__price">
+                            <sup>$</sup>20
+                        </div>
+                        <a class="button button--primary" href="#" target="_blank">Sales open Jan, 5th</a>
+                    </div>
+                    <div class="register-box__col register-box__col--right">
+                        <div class="register-box__title">Early Bird</div>
+                        <hr class="hyphen">
+                        <p class="register-box__desc">Early bird prices until Jan, 31st! Your early bird ticket guarantees admission and hot & cold refreshments for both days.</p>
+                    </div>
+                </div>
+                <!-- Register Box -->
+            </div>
+
+            <div class="col-md-6">
+                <!-- Register Box -->
+                <div class="register-box">
+                    <div class="register-box__col register-box__col--left">
+                        <div class="register-box__price">
+                            <sup>$</sup>40
+                        </div>
+                        <a class="button button--primary" href="#" target="_blank">Sales open Jan, 5th</a>
+                    </div>
+                    <div class="register-box__col register-box__col--right">
+                        <div class="register-box__title">EXCLUSIVE</div>
+                        <hr class="hyphen">
+                        <p class="register-box__desc">Your exclusive ticket guarantees admission and hot & cold refreshments for both days plus a private after-party dinner with guest speakers following the conference.</p>
+                    </div>
+                </div>
+                <!-- Register Box -->
+            </div>
+        </div>
+    </section>
+
+    <!-- <div class="jumbotron jumbotron--map">
+        <div class="container jumbotron__container">
+            <section class="jumbotron__inner">
+                <div class="row">
+                    <div class="col-md-5 col-md-offset-7">
+                        <h3 class="jumbotron__title clear-gap-vertical">Venue</h3>
+                        <p></p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div> -->
+
+    <section class="pad-vertical-large container text-center">
+           <h3>Hotels</h3>
+           <hr class="hyphen">
+
+           <!-- <p>Our accommodation sponsor <a href="http://lalahanhotel.com/" target="_blank">Lalahan Hotel</a> offer discounts for paying in cash special for PHPKonf guests!</p>
+
+           <div class="clearfix pad-top">
+              <figure class="thumb thumb--hotel gap-bottom-mobile-h">
+                   <img data-src="img/hotels/5.jpg" alt="" class="thumb__img">
+                   <figcaption class="thumb__caption">
+                       <a target="_blank" class="thumb__link" href="http://lalahanhotel.com/">
+                           <div class="vertical-center">
+                               <h4 class="thumb__link__title">Lalahan Hotel</h4>
+                               <h6 class="thumb__link__subtitle">İstanbul Old Town City</h6>
+                           </div>
+                       </a>
+                   </figcaption>
+               </figure> -->
+
+               <!-- /Thumb Hotel -->
+           </div>
+       </section>
+
+    <div id="sponsors" class="pad-vertical-large bg-snow">
+        <div class="container text-center">
+            <h3>Sponsors</h3>
+            <hr class="hyphen">
+            <p class="gap-bottom-large">Would you like to be the part of this great event? Please <a href="mailto:mail@IstanbulPHP.net">get in touch</a> with us for sponsorship options!</p>
+            <h6 class="gap-top-large-mobile-h">Organization / Partners</h6>
+            <a target="_blank" href="http://www.meetup.com/IstanbulPHP/"><img width="200px" height="200px" class="gap-bottom" data-src="img/sponsors/istanbulphp-logo.png" alt="İstanbul PHP UG"></a>
+            <a target="_blank" href="http://www.teknasyon.com/"><img class="gap-bottom" data-src="img/sponsors/teknasyon-teknoloji.png" alt="Teknasyon Teknoloji"></a>
+            <h6 class="gap-top-large-mobile-h">Gold Sponsors</h6>
+            <h6 class="gap-top-large-mobile-h">Silver Sponsors</h6>
+            <h6 class="gap-top-large-mobile-h">Bronze Sponsors</h6>
+            <h6 class="gap-top-large-mobile-h">Accommodotion Sponsors</h6>
+            <h6 class="gap-top-large-mobile-h">Media Sponsors</h6>
+            <h6 class="gap-top-large-mobile-h">Open Sponsors</h6>
+        	<h6 class="gap-top-large-mobile-h">Supporters / Communities</h6>
+        </div>
+    </div>
+
+    <div id="sponsors" class="pad-vertical-large bg-snow" style="background-color: #FFF;">
+        <div class="container text-center">
+            <h3>Commitee</h3>
+            <ul>
+                <li>Arda Kılıçdağı (Sr. Software Developer @ Hobium.com)</li>
+                <li><strong>*</strong> Emir Karşıyakalı (Sr. Software Developer @ Teknasyon Teknoloji)</li>
+                <li>Emrah Albulak (Sr. Software Developer @ Teknasyon Teknoloji) </li>
+                <li>Emre Erkan (Founder @ Ada Dijital Ajans)</li>
+                <li>Fatih Acet (Frontend Engineer @ GitLab.com)</li>
+                <li>Fatih Üstündağ (Co-founder @ Teknasyon Teknoloji)</li>
+                <li>Güven Atbakan (Co-founder @ user.agency)</li>
+                <li>Hamza Bulat (Lead Developer @ Freebird Airlines)</li>
+                <li>Haydar Külekçi (Lead Developer @ Freebird Airlines)</li>
+                <li>Hidayet Doğan (Sr. Software Developer @ Bilkent University)</li>
+                <li><strong>*</strong> Hidayet Ok (Founder @ Grinet)</li>
+                <li>Marco Pivetta (Consultant @ Roave)</li>
+                <li>Mehmet İnce (Co-founder @ Invictus Europe)</li>
+                <li>Mümin Aydın (CTO @ Düğün.com)</li>
+                <li>Onur Yılmaz (Sr. Security Researcher @ Netsparker)</li>
+                <li><strong>*</strong> Osman Yüksel (Founder @ Sonsuzdongu.com)</li>
+                <li>Ziyahan Albeniz (QA Tester & Security Researcher @ Netsparker)</li>
+            </ul>
+
+            <p><strong>*</strong> Organization crew.</p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <a class="logo logo--footer" href="http://atolye15.com" target="_blank" title="Atölye15"></a>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular-route.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ng-dialog/0.4.0/js/ngDialog.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.15/angular-sanitize.min.js"></script>
+    <script src="libs/jquery.min.js"></script>
+    <script src="libs/zozo-tabs/zozo.tabs.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/vendors.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.lazyloadxt/1.0.5/jquery.lazyloadxt.min.js"></script>
+
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-63786228-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    
+    <!-- Facebook Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+    n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+    document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+    fbq('init', '760153014121426');
+    fbq('track', "PageView");</script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=760153014121426&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Facebook Pixel Code -->
+</body>
+</html>

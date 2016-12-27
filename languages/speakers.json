@@ -1,0 +1,18 @@
+{
+    "speakers": {
+        "rasmus": {
+            "name": "Rasmus",
+            "surname": "Lerdorf",
+            "bio": "Creator of PHP",
+            "about": "Rasmus Lerdorf is known for having gotten the PHP project off the ground in 1995 and has contributed to a number of other open source projects over the years. He was an infrastructure architect at Yahoo! for more than 7 years and joined Etsy in 2012. He was born in Greenland, grew up in Denmark and Canada and has a Systems Design engineering degree from the University of Waterloo.",
+            "photo": "rasmus-lerdorf.jpg",
+            "keynote": 1,
+            "language": "en",
+            "social": {
+                "github": "rasmus",
+                "twitter": "rasmus",
+                "linkedin": "rlerdorf"
+            }
+        }
+    }
+}
