@@ -23,9 +23,9 @@
             "keynote": 0,
             "language": "en",
             "social": {
-                "github": "freekmurze",
-                "twitter": "freekmurze",
-                "linkedin": "freekmurze"
+                "github": "nikic",
+                "twitter": "nikita_ppv",
+                "linkedin": ""
             }
         },
         "rob": {
@@ -96,6 +96,20 @@
                 "github": "skoop",
                 "twitter": "skoop",
                 "linkedin": "skoop"
+            }
+        },
+        "freek": {
+            "name": "Freek",
+            "surname": "Van der Herten",
+            "bio": "Partner and developer at Spatie",
+            "about": "Freek Van der Herten is a partner and developer at [Spatie] (https://spatie.be), an Antwerp based company that specializes in creating Laravel apps. The company has an open source first mentality. Freek is the author of many packages that Spatie releases. According to GitHub awards Spatie is in the top 10 of PHP developers worldwide. After hours Freek writes about modern PHP and Laravel on his blog and is a co-organizer of PHP User group in Antwerp, Belgium. When not coding he's probably rehearsing with his kraut-rock band (https://jarenduren.bandcamp.com/).",
+            "photo": "freek-van-der-herten.jpg",
+            "keynote": 0,
+            "language": "en",
+            "social": {
+                "github": "freekmurze",
+                "twitter": "freekmurze",
+                "linkedin": "freekmurze"
             }
         }
     }
