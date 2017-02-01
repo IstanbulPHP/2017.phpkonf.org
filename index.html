@@ -130,7 +130,7 @@ We'll host some of the best speakers, awesome talk topics, latest technologies, 
 
         <div class="honeycomb-wrapper">
 
-            <div class="col-sm-3" ng-repeat="(id, speaker) in speakers | toArray | limitTo:limit">
+            <div class="col-sm-3" ng-repeat="(id, speaker) in speakers | toArray | limitTo:limit" style="min-height: 350px">
                 <div class="speaker">
                     <div class="photo-wrapper rounded">
                         <a href="javascript:void(0)" ng-click="clickToOpen(speaker)">

@@ -13,6 +13,90 @@
                 "twitter": "rasmus",
                 "linkedin": "rlerdorf"
             }
+        },
+        "nikita": {
+            "name": "Nikita",
+            "surname": "Popov",
+            "bio": "PHP core developer",
+            "about": "PHP core developer and one of the primary contributors to PHP 7. Studying computer science and theoretical physics at TU Berlin.",
+            "photo": "nikita-popov.jpg",
+            "keynote": 0,
+            "language": "en",
+            "social": {
+                "github": "freekmurze",
+                "twitter": "freekmurze",
+                "linkedin": "freekmurze"
+            }
+        },
+        "rob": {
+            "name": "Rob",
+            "surname": "Allen",
+            "bio": "Slim Framework lead. ZF CR team member and author of ZF in Action",
+            "about": "Rob Allen is a software consultant and developer. He has been involved in software architecture and development for many years and writes code in PHP, Swift and other interesting languages. He is part of Slim Framework's leadership team and contributes to other open source projects. Rob is also a member of the Zend Framework Community team and wrote Zend Framework in Action. Based in the UK, he runs Nineteen Feet Limited, focussing on web development, training and consultancy. In his spare time, Rob blogs at akrabat.com and can often be seen with a camera in his hand.",
+            "photo": "rob-allen.jpg",
+            "keynote": 0,
+            "language": "en",
+            "social": {
+                "github": "akrabat",
+                "twitter": "akrabat",
+                "linkedin": "akrabat"
+            }
+        },
+        "amanda": {
+            "name": "Amanda",
+            "surname": "Folson",
+            "bio": "Developer Advocate at GitLab",
+            "about": "From humble beginnings as a PHP4 web developer in grade school, Amanda now works as a Developer Advocate at GitLab where she gets to share her passion for technology and education with others. In addition to consuming APIs and IPAs, she currently serves as a Secretary for the PHP-FIG and is involved in Open Sourcing Mental Illness. In her spare time, you’ll find her in a hammock with a guitar.",
+            "photo": "amanda-folson.jpg",
+            "keynote": 0,
+            "language": "en",
+            "social": {
+                "github": "AmbassadorAwsum",
+                "twitter": "AmbassadorAwsum",
+                "linkedin": "AmbassadorAwsum"
+            }
+        },
+        "rafael": {
+            "name": "Rafael",
+            "surname": "Dohms",
+            "bio": "PHP Evangelist, Lead Backend Engineer at Usabilla",
+            "about": "I'm very passionate about open source, development and community. I love speaking at conferences, pushing teams to do their best work and to try out new technology. I love contributing to exciting projects and building new and incredible solutions to the problems of life.",
+            "photo": "rafael-dohms.jpg",
+            "keynote": 0,
+            "language": "en",
+            "social": {
+                "github": "rdohms",
+                "twitter": "rdohms",
+                "linkedin": "rdohms"
+            }
+        },
+        "michelle": {
+            "name": "Michelle",
+            "surname": "Sanver",
+            "bio": "President of PHPWomen, Software developer at Liip",
+            "about": "Michelle Sanver is president of PHPWomen, an inclusive & global network providing support within the PHP community. She also works as a software developer at Liip, based in Zürich, Switzerland. Michelle loves anything community related and is a big advocate of Open Source. She is a code-passionate colourful geek and with more than 10 years of PHP experience she is eager to share her extensive knowledge.",
+            "photo": "michelle-sanver.jpg",
+            "keynote": 0,
+            "language": "en",
+            "social": {
+                "github": "michellesanver",
+                "twitter": "michellesanver",
+                "linkedin": "michellesanver"
+            }
+        },
+        "stefan": {
+            "name": "Stefan",
+            "surname": "Koopmanschap",
+            "bio": "PHP developer, consultant and trainer",
+            "about": "Between having a family life, doing a weekly radio show and attending conferences and usergroup meetings, Stefan tries running a company called Ingewikkeld and organizing WeCamp. Having worked with PHP and several of its open source products since the late 90s, he still likes it for getting the job done.",
+            "photo": "stefan-koopmanschap.jpg",
+            "keynote": 0,
+            "language": "en",
+            "social": {
+                "github": "skoop",
+                "twitter": "skoop",
+                "linkedin": "skoop"
+            }
         }
     }
 }

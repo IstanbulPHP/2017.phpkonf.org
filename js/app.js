@@ -46,7 +46,7 @@
 
   app.controller('MainController', ['$http', '$scope', 'ngDialog', '$rootScope', function ($http, $scope, ngDialog, $rootScope) {
 
-    $scope.limit = 8;
+    $scope.limit = 16;
 
     $http.get("languages/speakers.json")
       .success (function (data) {
