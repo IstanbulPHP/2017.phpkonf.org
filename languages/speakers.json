@@ -111,6 +111,20 @@
                 "twitter": "freekmurze",
                 "linkedin": "freekmurze"
             }
+        },
+        "elena": {
+            "name": "Elena",
+            "surname": "Kolevska",
+            "bio": "Lead developer at Speed to Contact, tech blogger",
+            "about": "Elena Kolevska is the lead developer at Speed To Contact and an occasional tech blogger and speaker. A freak for optimizing stuff, be it code, work processes, driving style or a night out. Prefers humans over machines (write code that’s readable first and then make it run super fast). She likes to hang out and participate in the online tech community, but we’ve repeatedly heard her say that she values time spent AFK equally. A blasphemy!",
+            "photo": "elena-kolevska.jpg",
+            "keynote": 0,
+            "language": "en",
+            "social": {
+                "github": "rasmus",
+                "twitter": "rasmus",
+                "linkedin": "rlerdorf"
+            }
         }
     }
 }
