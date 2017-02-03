@@ -51,9 +51,9 @@
             "keynote": 0,
             "language": "en",
             "social": {
-                "github": "AmbassadorAwsum",
+                "github": "afolson",
                 "twitter": "AmbassadorAwsum",
-                "linkedin": "AmbassadorAwsum"
+                "linkedin": "violins"
             }
         },
         "rafael": {
@@ -67,7 +67,7 @@
             "social": {
                 "github": "rdohms",
                 "twitter": "rdohms",
-                "linkedin": "rdohms"
+                "linkedin": "rafaeldohms"
             }
         },
         "michelle": {
@@ -109,7 +109,7 @@
             "social": {
                 "github": "freekmurze",
                 "twitter": "freekmurze",
-                "linkedin": "freekmurze"
+                "linkedin": ""
             }
         },
         "elena": {
@@ -121,9 +121,37 @@
             "keynote": 0,
             "language": "en",
             "social": {
-                "github": "rasmus",
-                "twitter": "rasmus",
-                "linkedin": "rlerdorf"
+                "github": "elena-kolevska",
+                "twitter": "elena_kolevska",
+                "linkedin": "ekolevska"
+            }
+        },
+        "sarah": {
+            "name": "Sarah",
+            "surname": "Khalil",
+            "bio": "Head of SensioLabs University, trainer, developer",
+            "about": "Enthusiastic about Symfony and its ecosystem, she's a happy, curious and enjoying sharer.",
+            "photo": "sarah-khalil.jpg",
+            "keynote": 0,
+            "language": "en",
+            "social": {
+                "github": "saro0h",
+                "twitter": "saro0h",
+                "linkedin": "khalilsarah"
+            }
+        },
+        "andreas": {
+            "name": "Andreas",
+            "surname": "Heigl",
+            "bio": "",
+            "about": "Andreas helps solving problems at a german corporate publishing company. He sometimes even uses code for that. Besides his family, his work as jack-of-all-trades and contributions to different open-source-projects he still finds the time to run PHPUGFFM, the PHP-Usergroup in Frankfurt/Main and maintain PHP.ug.",
+            "photo": "andreas-heigl.jpg",
+            "keynote": 0,
+            "language": "en",
+            "social": {
+                "github": "heiglandreas",
+                "twitter": "heiglandreas",
+                "linkedin": "heiglandreas"
             }
         }
     }
