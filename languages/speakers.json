@@ -167,6 +167,20 @@
                 "twitter": "jrf_nl",
                 "linkedin": "julietterf"
             }
+        },
+        "patrik": {
+            "name": "Patrik",
+            "surname": "Karisch",
+            "bio": "Engineering & Operations at pixelart",
+            "about": "Patrik Karisch is a software engineer and PHP developer advocate. He enjoys working with Symfony and is passionate about DevOps and Linux. Patrik is an open source enthusiast and an advocate of modern development principles &amp; standards. At other times, he fiddles with electronics and microcontrollers. If Patrik isn't working he is busy cooking delicious food and playing drums.",
+            "photo": "patrik-karisch.jpg",
+            "keynote": 0,
+            "language": "en",
+            "social": {
+                "github": "patkar",
+                "twitter": "PatrikKarisch",
+                "linkedin": ""
+            }
         }
     }
 }
