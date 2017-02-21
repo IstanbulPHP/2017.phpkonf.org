@@ -14,34 +14,6 @@
                 "linkedin": "rlerdorf"
             }
         },
-        "nikita": {
-            "name": "Nikita",
-            "surname": "Popov",
-            "bio": "PHP core developer",
-            "about": "PHP core developer and one of the primary contributors to PHP 7. Studying computer science and theoretical physics at TU Berlin.",
-            "photo": "nikita-popov.jpg",
-            "keynote": 0,
-            "language": "en",
-            "social": {
-                "github": "nikic",
-                "twitter": "nikita_ppv",
-                "linkedin": ""
-            }
-        },
-        "rob": {
-            "name": "Rob",
-            "surname": "Allen",
-            "bio": "Slim Framework lead. ZF CR team member and author of ZF in Action",
-            "about": "Rob Allen is a software consultant and developer. He has been involved in software architecture and development for many years and writes code in PHP, Swift and other interesting languages. He is part of Slim Framework's leadership team and contributes to other open source projects. Rob is also a member of the Zend Framework Community team and wrote Zend Framework in Action. Based in the UK, he runs Nineteen Feet Limited, focussing on web development, training and consultancy. In his spare time, Rob blogs at akrabat.com and can often be seen with a camera in his hand.",
-            "photo": "rob-allen.jpg",
-            "keynote": 0,
-            "language": "en",
-            "social": {
-                "github": "akrabat",
-                "twitter": "akrabat",
-                "linkedin": "akrabat"
-            }
-        },
         "amanda": {
             "name": "Amanda",
             "surname": "Folson",
@@ -54,90 +26,6 @@
                 "github": "afolson",
                 "twitter": "AmbassadorAwsum",
                 "linkedin": "violins"
-            }
-        },
-        "rafael": {
-            "name": "Rafael",
-            "surname": "Dohms",
-            "bio": "PHP Evangelist, Lead Backend Engineer at Usabilla",
-            "about": "I'm very passionate about open source, development and community. I love speaking at conferences, pushing teams to do their best work and to try out new technology. I love contributing to exciting projects and building new and incredible solutions to the problems of life.",
-            "photo": "rafael-dohms.jpg",
-            "keynote": 0,
-            "language": "en",
-            "social": {
-                "github": "rdohms",
-                "twitter": "rdohms",
-                "linkedin": "rafaeldohms"
-            }
-        },
-        "michelle": {
-            "name": "Michelle",
-            "surname": "Sanver",
-            "bio": "President of PHPWomen, Software developer at Liip",
-            "about": "Michelle Sanver is president of PHPWomen, an inclusive & global network providing support within the PHP community. She also works as a software developer at Liip, based in Zürich, Switzerland. Michelle loves anything community related and is a big advocate of Open Source. She is a code-passionate colourful geek and with more than 10 years of PHP experience she is eager to share her extensive knowledge.",
-            "photo": "michelle-sanver.jpg",
-            "keynote": 0,
-            "language": "en",
-            "social": {
-                "github": "michellesanver",
-                "twitter": "michellesanver",
-                "linkedin": "michellesanver"
-            }
-        },
-        "stefan": {
-            "name": "Stefan",
-            "surname": "Koopmanschap",
-            "bio": "PHP developer, consultant and trainer",
-            "about": "Between having a family life, doing a weekly radio show and attending conferences and usergroup meetings, Stefan tries running a company called Ingewikkeld and organizing WeCamp. Having worked with PHP and several of its open source products since the late 90s, he still likes it for getting the job done.",
-            "photo": "stefan-koopmanschap.jpg",
-            "keynote": 0,
-            "language": "en",
-            "social": {
-                "github": "skoop",
-                "twitter": "skoop",
-                "linkedin": "skoop"
-            }
-        },
-        "freek": {
-            "name": "Freek",
-            "surname": "Van der Herten",
-            "bio": "Partner and developer at Spatie",
-            "about": "Freek Van der Herten is a partner and developer at [Spatie] (https://spatie.be), an Antwerp based company that specializes in creating Laravel apps. The company has an open source first mentality. Freek is the author of many packages that Spatie releases. According to GitHub awards Spatie is in the top 10 of PHP developers worldwide. After hours Freek writes about modern PHP and Laravel on his blog and is a co-organizer of PHP User group in Antwerp, Belgium. When not coding he's probably rehearsing with his kraut-rock band (https://jarenduren.bandcamp.com/).",
-            "photo": "freek-van-der-herten.jpg",
-            "keynote": 0,
-            "language": "en",
-            "social": {
-                "github": "freekmurze",
-                "twitter": "freekmurze",
-                "linkedin": ""
-            }
-        },
-        "elena": {
-            "name": "Elena",
-            "surname": "Kolevska",
-            "bio": "Lead developer at Speed to Contact, tech blogger",
-            "about": "Elena Kolevska is the lead developer at Speed To Contact and an occasional tech blogger and speaker. A freak for optimizing stuff, be it code, work processes, driving style or a night out. Prefers humans over machines (write code that’s readable first and then make it run super fast). She likes to hang out and participate in the online tech community, but we’ve repeatedly heard her say that she values time spent AFK equally. A blasphemy!",
-            "photo": "elena-kolevska.jpg",
-            "keynote": 0,
-            "language": "en",
-            "social": {
-                "github": "elena-kolevska",
-                "twitter": "elena_kolevska",
-                "linkedin": "ekolevska"
-            }
-        },
-        "sarah": {
-            "name": "Sarah",
-            "surname": "Khalil",
-            "bio": "Head of SensioLabs University, trainer, developer",
-            "about": "Enthusiastic about Symfony and its ecosystem, she's a happy, curious and enjoying sharer.",
-            "photo": "sarah-khalil.jpg",
-            "keynote": 0,
-            "language": "en",
-            "social": {
-                "github": "saro0h",
-                "twitter": "saro0h",
-                "linkedin": "khalilsarah"
             }
         },
         "andreas": {
@@ -154,6 +42,62 @@
                 "linkedin": "heiglandreas"
             }
         },
+        "elena": {
+            "name": "Elena",
+            "surname": "Kolevska",
+            "bio": "Lead developer at Speed to Contact, tech blogger",
+            "about": "Elena Kolevska is the lead developer at Speed To Contact and an occasional tech blogger and speaker. A freak for optimizing stuff, be it code, work processes, driving style or a night out. Prefers humans over machines (write code that’s readable first and then make it run super fast). She likes to hang out and participate in the online tech community, but we’ve repeatedly heard her say that she values time spent AFK equally. A blasphemy!",
+            "photo": "elena-kolevska.jpg",
+            "keynote": 0,
+            "language": "en",
+            "social": {
+                "github": "elena-kolevska",
+                "twitter": "elena_kolevska",
+                "linkedin": "ekolevska"
+            }
+        },
+        "emir": {
+            "name": "Emir",
+            "surname": "Karşıyakalı",
+            "bio": "‎Sr. Software developer at Teknasyon Teknoloji",
+            "about": "Emir Karşıyakalı is Web developer with a passion for open-source, community & PHP. He is Zend Certified PHP Engineer and over 10 years of experience in web application development. Currently works at Teknasyon Teknoloji as Senior Software Developer. User group leader of Istanbul PHP. Organizer of PHPKonf 2014, 2015, 2016. Jstanbul 2012, JSIST 2014, Mobilist 2013, PHP-ist 2013, HackING Hackathon 2014 and much more. ‘emir’ in GitHub. And always student at Bahçeşehir University.",
+            "photo": "emir-karsiyakali.jpg",
+            "keynote": 0,
+            "language": "en",
+            "social": {
+                "github": "emir",
+                "twitter": "emirkarsiyakali",
+                "linkedin": "emirkarsiyakali"
+            }
+        },
+        "fatih": {
+            "name": "Fatih",
+            "surname": "Üstündağ",
+            "bio": "Co-founder at Teknasyon Teknoloji",
+            "about": "",
+            "photo": "fatih-ustundag.jpg",
+            "keynote": 0,
+            "language": "en",
+            "social": {
+                "github": "fustundag",
+                "twitter": "fustundag",
+                "linkedin": "fatihustundag"
+            }
+        },
+        "freek": {
+            "name": "Freek",
+            "surname": "Van der Herten",
+            "bio": "Partner and developer at Spatie",
+            "about": "Freek Van der Herten is a partner and developer at [Spatie] (https://spatie.be), an Antwerp based company that specializes in creating Laravel apps. The company has an open source first mentality. Freek is the author of many packages that Spatie releases. According to GitHub awards Spatie is in the top 10 of PHP developers worldwide. After hours Freek writes about modern PHP and Laravel on his blog and is a co-organizer of PHP User group in Antwerp, Belgium. When not coding he's probably rehearsing with his kraut-rock band (https://jarenduren.bandcamp.com/).",
+            "photo": "freek-van-der-herten.jpg",
+            "keynote": 0,
+            "language": "en",
+            "social": {
+                "github": "freekmurze",
+                "twitter": "freekmurze",
+                "linkedin": ""
+            }
+        },
         "juliette": {
             "name": "Juliette",
             "surname": "Reinders Folmer",
@@ -168,6 +112,62 @@
                 "linkedin": "julietterf"
             }
         },
+        "mariusz": {
+            "name": "Mariusz",
+            "surname": "Gil",
+            "bio": "‎Co-owner at Source Ministry",
+            "about": "Architect, software engineer focused on delivering high quality apps. Trainer, consultant and conference speaker. He has been working for several companies on PHP projects for millions of active users, from biggest social network and instant-messaging software in Poland to multi-billion PV content personalization and discovery platform. Member of 4Developers, PHPCon and DDD Now Programme Commitees and one of core members behind PHPers. After hours, biker, photographer and rock guitarist.",
+            "photo": "mariusz-gil.jpg",
+            "keynote": 0,
+            "language": "en",
+            "social": {
+                "github": "mariuszgil",
+                "twitter": "mariuszgil",
+                "linkedin": "mariuszgil"
+            }
+        },
+        "michelle": {
+            "name": "Michelle",
+            "surname": "Sanver",
+            "bio": "President of PHPWomen, Software developer at Liip",
+            "about": "Michelle Sanver is president of PHPWomen, an inclusive & global network providing support within the PHP community. She also works as a software developer at Liip, based in Zürich, Switzerland. Michelle loves anything community related and is a big advocate of Open Source. She is a code-passionate colourful geek and with more than 10 years of PHP experience she is eager to share her extensive knowledge.",
+            "photo": "michelle-sanver.jpg",
+            "keynote": 0,
+            "language": "en",
+            "social": {
+                "github": "michellesanver",
+                "twitter": "michellesanver",
+                "linkedin": "michellesanver"
+            }
+        },
+        "nikita": {
+            "name": "Nikita",
+            "surname": "Popov",
+            "bio": "PHP core developer",
+            "about": "PHP core developer and one of the primary contributors to PHP 7. Studying computer science and theoretical physics at TU Berlin.",
+            "photo": "nikita-popov.jpg",
+            "keynote": 0,
+            "language": "en",
+            "social": {
+                "github": "nikic",
+                "twitter": "nikita_ppv",
+                "linkedin": ""
+            }
+        },
+        "patrick": {
+            "name": "Patrick",
+            "surname": "Allaert",
+            "bio": "PHP core, Founder at Libereco Tech",
+            "about": "Patrick Allaert is a freelance system engineer and founder of Libereco Technologies, a Brussels based company specialized in PHP services. Using PHP since the early days of PHP 3, he is contributing/hacking on a wide variety of projects including PHP, [eZ Publish](http://ez.no/), Linux and KDE. In his spare time, he works on the PHP monitoring extension: [APM](http://pecl.php.net/package/APM) for which he is the lead developer, that doesnâ€™t give him much time to [blog](http://patrickallaert.blogspot.com/) or to [tweet](https://twitter.com/patrick_allaert).",
+            "photo": "patrick-allaert.jpg",
+            "keynote": 0,
+            "language": "en",
+            "social": {
+                "github": "patrickallaert",
+                "twitter": "patrick_allaert",
+                "linkedin": "patrickallaert"
+            }
+        },
         "patrik": {
             "name": "Patrik",
             "surname": "Karisch",
@@ -180,6 +180,62 @@
                 "github": "patkar",
                 "twitter": "PatrikKarisch",
                 "linkedin": ""
+            }
+        },
+        "rafael": {
+            "name": "Rafael",
+            "surname": "Dohms",
+            "bio": "PHP Evangelist, Lead Backend Engineer at Usabilla",
+            "about": "I'm very passionate about open source, development and community. I love speaking at conferences, pushing teams to do their best work and to try out new technology. I love contributing to exciting projects and building new and incredible solutions to the problems of life.",
+            "photo": "rafael-dohms.jpg",
+            "keynote": 0,
+            "language": "en",
+            "social": {
+                "github": "rdohms",
+                "twitter": "rdohms",
+                "linkedin": "rafaeldohms"
+            }
+        },
+        "rob": {
+            "name": "Rob",
+            "surname": "Allen",
+            "bio": "Slim Framework lead. ZF CR team member and author of ZF in Action",
+            "about": "Rob Allen is a software consultant and developer. He has been involved in software architecture and development for many years and writes code in PHP, Swift and other interesting languages. He is part of Slim Framework's leadership team and contributes to other open source projects. Rob is also a member of the Zend Framework Community team and wrote Zend Framework in Action. Based in the UK, he runs Nineteen Feet Limited, focussing on web development, training and consultancy. In his spare time, Rob blogs at akrabat.com and can often be seen with a camera in his hand.",
+            "photo": "rob-allen.jpg",
+            "keynote": 0,
+            "language": "en",
+            "social": {
+                "github": "akrabat",
+                "twitter": "akrabat",
+                "linkedin": "akrabat"
+            }
+        },
+        "sarah": {
+            "name": "Sarah",
+            "surname": "Khalil",
+            "bio": "Head of SensioLabs University, trainer, developer",
+            "about": "Enthusiastic about Symfony and its ecosystem, she's a happy, curious and enjoying sharer.",
+            "photo": "sarah-khalil.jpg",
+            "keynote": 0,
+            "language": "en",
+            "social": {
+                "github": "saro0h",
+                "twitter": "saro0h",
+                "linkedin": "khalilsarah"
+            }
+        },
+        "stefan": {
+            "name": "Stefan",
+            "surname": "Koopmanschap",
+            "bio": "PHP developer, consultant and trainer",
+            "about": "Between having a family life, doing a weekly radio show and attending conferences and usergroup meetings, Stefan tries running a company called Ingewikkeld and organizing WeCamp. Having worked with PHP and several of its open source products since the late 90s, he still likes it for getting the job done.",
+            "photo": "stefan-koopmanschap.jpg",
+            "keynote": 0,
+            "language": "en",
+            "social": {
+                "github": "skoop",
+                "twitter": "skoop",
+                "linkedin": "skoop"
             }
         }
     }
