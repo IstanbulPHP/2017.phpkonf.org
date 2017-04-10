@@ -14,6 +14,20 @@
                 "linkedin": "rlerdorf"
             }
         },
+        "bilgem": {
+            "name": "Bilgem",
+            "surname": "Cakir",
+            "bio": "Chief Creator at Night Lore Studios",
+            "about": "Bilgem is an opinionated code purist who has never not-shipped. After almost a decade of coding  graphics code for demoscene, Bilgem finally started professional coding in late 90's. He built graphics stacks for consumer devices in Turkey and Europe and worked in Games Industry for many years before going over the pond to US and joining the Empire. After two Windows versions worth of time spent in the MS Windows DirectX team he joined Amazon and spent another half decade doing crazy projects like 3D phones and stores without cashiers. Recently he left almost two decades of corporate life to start his own indie game studio and is hoping to have his unbroken line of shipped products continued by solo developing an almost-AAA game.",
+            "photo": "bilgem-cakir.jpg",
+            "keynote": 1,
+            "language": "en",
+            "social": {
+                "github": "",
+                "twitter": "BilgemCakir_whq",
+                "linkedin": "bilgem-cakir-b6a8a937"
+            }
+        },            
         "amanda": {
             "name": "Amanda",
             "surname": "Folson",
