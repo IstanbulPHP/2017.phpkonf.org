@@ -27,20 +27,6 @@
                 "twitter": "BilgemCakir_whq",
                 "linkedin": "bilgem-cakir-b6a8a937"
             }
-        },            
-        "amanda": {
-            "name": "Amanda",
-            "surname": "Folson",
-            "bio": "Developer Advocate at GitLab",
-            "about": "From humble beginnings as a PHP4 web developer in grade school, Amanda now works as a Developer Advocate at GitLab where she gets to share her passion for technology and education with others. In addition to consuming APIs and IPAs, she currently serves as a Secretary for the PHP-FIG and is involved in Open Sourcing Mental Illness. In her spare time, you’ll find her in a hammock with a guitar.",
-            "photo": "amanda-folson.jpg",
-            "keynote": 0,
-            "language": "en",
-            "social": {
-                "github": "afolson",
-                "twitter": "AmbassadorAwsum",
-                "linkedin": "violins"
-            }
         },
         "andreas": {
             "name": "Andreas",
@@ -68,20 +54,6 @@
                 "github": "elena-kolevska",
                 "twitter": "elena_kolevska",
                 "linkedin": "ekolevska"
-            }
-        },
-        "emir": {
-            "name": "Emir",
-            "surname": "Karşıyakalı",
-            "bio": "‎Sr. Software developer at Teknasyon Teknoloji",
-            "about": "Emir Karşıyakalı is Web developer with a passion for open-source, community & PHP. He is Zend Certified PHP Engineer and over 10 years of experience in web application development. Currently works at Teknasyon Teknoloji as Senior Software Developer. User group leader of Istanbul PHP. Organizer of PHPKonf 2014, 2015, 2016. Jstanbul 2012, JSIST 2014, Mobilist 2013, PHP-ist 2013, HackING Hackathon 2014 and much more. ‘emir’ in GitHub. And always student at Bahçeşehir University.",
-            "photo": "emir-karsiyakali.jpg",
-            "keynote": 0,
-            "language": "en",
-            "social": {
-                "github": "emir",
-                "twitter": "emirkarsiyakali",
-                "linkedin": "emirkarsiyakali"
             }
         },
         "fatih": {
