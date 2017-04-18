@@ -112,20 +112,6 @@
                 "linkedin": "mariuszgil"
             }
         },
-        "michelle": {
-            "name": "Michelle",
-            "surname": "Sanver",
-            "bio": "President of PHPWomen, Software developer at Liip",
-            "about": "Michelle Sanver is president of PHPWomen, an inclusive & global network providing support within the PHP community. She also works as a software developer at Liip, based in Zürich, Switzerland. Michelle loves anything community related and is a big advocate of Open Source. She is a code-passionate colourful geek and with more than 10 years of PHP experience she is eager to share her extensive knowledge.",
-            "photo": "michelle-sanver.jpg",
-            "keynote": 0,
-            "language": "en",
-            "social": {
-                "github": "michellesanver",
-                "twitter": "michellesanver",
-                "linkedin": "michellesanver"
-            }
-        },
         "nikita": {
             "name": "Nikita",
             "surname": "Popov",
