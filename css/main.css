@@ -3350,7 +3350,7 @@ and (max-device-width : 480px) {
 
 #acompanies div {
     float: left;
-    height: 50px;
+    height: 100%
 }
 
 #acompaniestop {
@@ -3359,6 +3359,7 @@ and (max-device-width : 480px) {
 
 #acompaniestop ul {
     list-style: none;
+    text-align: center;
 }
 
 #acompaniestop li {
@@ -3373,4 +3374,15 @@ and (max-device-width : 480px) {
 
 #acompaniestop a:hover {
     text-decoration: underline;
+}
+
+.venue-maps {
+    width: 600px;
+    height: 450px;
+}
+
+@media (max-width: 480px) {
+    .venue-maps {
+        width: 100%;
+    }
 }
