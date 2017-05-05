@@ -84,6 +84,20 @@
                 "linkedin": ""
             }
         },
+        "holger": {
+            "name": "Holger",
+            "surname": "Woltersdorf",
+            "bio": "CIO & head of solutions at Fortuneglobe GmbH",
+            "about": "Holger Woltersdorf is CIO & head of solutions at Fortuneglobe GmbH. He has about 10 years of developer and team-lead experience in mobile communication and fashion eCommerce. Holger is PHP developer for more than 16 years, Co-founder and chairman of the PHP USERGROUP DRESDEN e.V., avid meetup speaker, core-developer of the open-source PHP micro-framework \"IceHawk\" and dedicated to multiple other PHP open-source projects.",
+            "photo": "holger-woltersdorf.jpg",
+            "keynote": 0,
+            "language": "en",
+            "social": {
+                "github": "hollodotme",
+                "twitter": "hollodotme",
+                "linkedin": "holger-woltersdorf-aba797b4"
+            }
+        },
         "juliette": {
             "name": "Juliette",
             "surname": "Reinders Folmer",
